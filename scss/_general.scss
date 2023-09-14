@@ -1,0 +1,20 @@
+*::after,
+*::before,
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    all: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}

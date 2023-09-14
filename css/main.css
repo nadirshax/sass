@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  all: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  background: #E5E5E5;
+}
+
+.nav {
+  width: 100%;
+}
+.nav .nav_logo {
+  margin-left: 70px;
+  padding-top: 23px;
+}
+.nav .nav_logo p {
+  margin-top: -35px;
+  margin-left: 55px;
+}
+.nav .nav_logo .logo_2 {
+  left: 1100px;
+  top: 39px;
+  border-radius: 0px;
+  position: absolute;
+}
+.nav .nav_ul {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-left: 80px;
+  top: -40px;
+  left: 183px;
+  font-size: 16px;
+  font-family: poppins;
+}
+.nav .nav_ul .nav_ul_list-item {
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.nav .nav_ul .nav_ul_list-item a {
+  text-decoration: none;
+  font-family: poppins;
+}
+.nav .nav_ul .nav_ul_list-item:active:hover {
+  background-color: rgba(255, 0, 0, 0.462);
+  color: rgb(25, 0, 255);
+  box-shadow: 0px 0px 15px 2px rgba(255, 0, 0, 0.782);
+}
+.nav .nav_ul .nav_ul_list-item:hover {
+  background-color: rgba(25, 0, 255, 0.349);
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 15px 2px rgba(246, 255, 0, 0.286);
+  border-radius: 10px;
+}
+
+.btn_list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-left: 80px;
+  top: -92px;
+  left: 620px;
+  font-size: 16px;
+  font-family: "poppins";
+}
+.btn_list .btn {
+  width: 122px;
+  height: 43px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.btn_list .btn:active:hover {
+  background-color: rgba(255, 0, 0, 0.462);
+  color: rgb(25, 0, 255);
+  box-shadow: 0px 0px 15px 2px rgba(255, 0, 0, 0.782);
+}
+.btn_list .btn:hover {
+  background-color: rgba(25, 0, 255, 0.349);
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 15px 2px rgba(246, 255, 0, 0.286);
+  border-radius: 10px;
+}
+.btn_list .btn_2 {
+  background-color: #02897A;
+  color: #FFF;
+  width: 122px;
+  height: 43px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.btn_list .btn_2:active:hover {
+  background-color: rgba(255, 0, 0, 0.462);
+  color: rgb(25, 0, 255);
+  box-shadow: 0px 0px 15px 2px rgba(255, 0, 0, 0.782);
+}
+.btn_list .btn_2:hover {
+  background-color: rgba(25, 0, 255, 0.349);
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 15px 2px rgba(246, 255, 0, 0.286);
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */
